@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Sidebar from "./sideNav";
+import Sidebar from "./SideNav";
 import { IoIosArrowDropright } from "react-icons/io";
 import supabase from "./supabase-client";
 import { SortAsc } from "lucide";

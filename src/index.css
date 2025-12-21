@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+/* @media only screen and (max-width: 600px) { */
+    /* #logo{
+    top: 15%;
+    left: 40%;
+    height: 7vh;
+} */
+#bannerSection{
+    height: 30vh;
+    background-color: black;
+    align-items: center;
+    padding-top: 100px;
+}
+#banner::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    border: 0px solid white;
+    height:22%;
+   /* margin: 100px; */
+   margin-left: 200px;
+    background-image: url('/public/p4.jpeg');
+    background-repeat: no-repeat;
+    /* width: 86%; */
+    background-size: cover;
+    /* mask-image: url(/public/ink.png); */
+    /* mask-repeat: inherit; */
+    mask-image: url('/public/inkgif.gif');
+    mask-size: cover;
+    margin-top: 100px;
+    margin-left: 10px;
+     margin-right: 10px;
+    width: auto;
+}
+
+#aboutmeMainDiv{
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px){
+    #logo{
+    max-height: 15vh;
+    left: 40%;
+}
+  #bannerSection{
+    height: 100vh;
+    background-color: black;
+    align-items: center;
+    padding-top: 100px;
+}
+    #banner::before{
+        content: '';
+    position: absolute;
+    inset: 0;
+    border: 0px solid white;
+    height:82%;
+    margin-top: 3%;
+   /* margin: 100px; */
+   margin-left: 200px;
+    background-image: url('/public/p4.jpeg');
+    background-repeat: no-repeat;
+    /* width: 86%; */
+    background-size: cover;
+    /* mask-image: url(/public/ink.png); */
+    /* mask-repeat: inherit; */
+    mask-image: url('/public/inkgif.gif');
+    mask-size: cover;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (min-width: 1280px) {
+#logo{
+    max-height: 15vh;
+    left: 40%;
+    top: 15%;
+    height: 7vh;
+}
+
+    #bannerSection{
+    height: 100vh;
+    background-color: black;
+    align-items: center;
+    padding-top: 100px;
+}
+    #banner::before{
+        content: '';
+    position: absolute;
+    inset: 0;
+    border: 0px solid white;
+    height:82%;
+    margin-top: 3%;
+   /* margin: 100px; */
+   margin-left: 200px;
+    background-image: url('/public/p4.jpeg');
+    background-repeat: no-repeat;
+    /* width: 86%; */
+    background-size: cover;
+    /* mask-image: url(/public/ink.png); */
+    /* mask-repeat: inherit; */
+    mask-image: url('/public/inkgif.gif');
+    mask-size: cover;
+    }
+}
+
+@media only screen and (min-width: 768px){
+#Oil,#Charcoal,#Water{
+    padding: 10%;
+}}

@@ -105,7 +105,7 @@
 
 
 import { useState } from "react";
-import Sidebar from "./sideNav";
+import Sidebar from "./SideNav";
 import supabase from "./supabase-client"; // adjust path as needed
 import { SupabaseClient } from "@supabase/supabase-js";
 import fblogo from "/fblogo.png";

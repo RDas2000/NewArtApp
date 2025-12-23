@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Sidebar from './sideNav';
+import Sidebar from './SideNav';
 import * as motion from "motion/react-client"
 
 

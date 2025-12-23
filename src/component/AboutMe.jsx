@@ -1,6 +1,6 @@
 import React from 'react'
 import * as motion from "motion/react-client"
-import Sidebar from './sideNav'
+import Sidebar from './SideNav'
 import { useRef,useState,useEffect } from 'react'
 import { animate } from "motion";
 

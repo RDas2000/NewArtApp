@@ -3,7 +3,7 @@ import React, { useEffect, useState ,useLayoutEffect} from 'react'
 //import './HomeCss.css'
 
 //import Header from './header';
-import Sidebar from './sideNav';
+import Sidebar from './SideNav';
 import * as motion from "motion/react-client"
 import { easeInOut } from 'framer-motion';
 import CookiePopup from './cookiepopup';
